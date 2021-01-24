@@ -1,0 +1,47 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+
+html{
+    font-size: 95.5%;
+    
+ }
+   body{
+          background: url("../img/fondo.png");
+ } 
+
+.piso{
+    background-color:#fafafa; 
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    bottom: 300px;
+    width:100%;
+    margin-top: auto;
+         }
+         
+         
+         a,li {
+    
+     text-align: center; 
+    display: inline-block;
+    padding:5px 5px 5px 5px  ;
+    border:5px 5px 5px 5px  ;
+    margin:auto  ;
+    transform: scale(1,1);
+    transition:  transform 1s;
+     }
+     .main {
+  margin-bottom: 150px;
+     }
+
+.GuitarraClasica {
+      border-radius: 20px;
+      
+}
+button:hover{
+    transform: scale(1.1, 1.1);
+     transition: transform 1s;
+}
