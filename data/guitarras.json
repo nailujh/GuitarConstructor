@@ -1,0 +1,38 @@
+ [
+    {
+        "Tapa": "abeto",
+        "Tastiera": "ebano",
+        "ArosYFondo": "guayubira",
+        "Mango": "cedro"
+    }, {
+         "Tapa": "abeto",
+        "Tastiera": "rosewood",
+        "ArosYFondo": "sapelli",
+        "Mango": "cedro"
+    }, {
+        "Tapa": "abeto",
+        "Tastiera": "guayacan",
+        "ArosYFondo": "sapelli",
+        "Mango": "maple"
+    }, {
+         "Tapa": "cedro",
+        "Tastiera": "ebano",
+        "ArosYFondo": "guayubira",
+        "Mango": "cedro"
+    }, {
+         "Tapa": "cedro",
+        "Tastiera": "rosewood",
+        "ArosYFondo": "sapelli",
+        "Mango": "cedro"
+    }, {
+        "Tapa": "cedro",
+        "Tastiera": "guayacan",
+        "ArosYFondo": "sapelli",
+        "Mango": "maple"
+    }, {
+       "Tapa": "cedro",
+        "Tastiera": "guayacan",
+        "ArosYFondo": "sapelli",
+        "Mango": "maple"
+    }
+]
