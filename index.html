@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Constructor de instrumentos</title>
+    <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="data/data.js"></script>
+    
+</head>
+<body >
+    <div class="row mt-3">
+        <div class="col-12 text-center">
+            <h2>Constructor y cotizador de guitarras epañolas</h2>
+        </div>
+    </div>
+  <section class="main">
+<div class="container p-4">
+    <div class="row mt-1">
+        <div class="col-lg-8 col-sm-12 text-center">
+            <img src="img/Maderas/abeto-ebano-guayubira-cedro.jpg" alt="Guitarra Clasica"
+                class="GuitarraClasica" id="imgSrc">
+        </div>
+            <div  class="col-lg-4 col-12 sm-text-center" class="formulario">
+                <div>
+            <p>Seleccione los materiales para su guitarra </p>
+        </div>
+                <form action="">
+                    <div class="form-group">
+                        <select class="form-control" id="Tapa">
+                            <option value="" selected disabled hidden>Tapa</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="Tastiera">
+                            <option value="" selected disabled hidden>Tastiera</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="ArosYFondo">
+                            <option value="" selected disabled hidden>Aros y Fondo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="Mango">
+                            <option value="" selected disabled hidden>Mango</option>
+                        </select>
+                    </div>
+                    <h5>Total :<span id="precioTotal"></span></h5>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modalPresupuesto">Reservar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section>
+<div class="modal fade" id="modalPresupuesto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><span id="modalSpan"></span> </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalReservar">
+
+            </div>
+          
+            <div class="modal-footer">
+                <button type="button" class="btn btnCerrar" data-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn" id="btnReservar">Confirmar</button>
+            </div>
+        </div>
+    <div>       
+<div>
+  </section>  
+    <footer class="piso">
+    <ul>
+        <li><a href="https://www.facebook.com/Craft-Guitars-120854059527911" target="_blank"> <img
+                    src="img/facebook.png" alt="facebook"></a>
+        </li>
+        <li> <a href="https://www.facebook.com/Craft-Guitars-120854059527911" target="_blank"> <img
+                    src="img/instagram.png" alt="instagram"> </a>
+        </li>
+        <li> <a href="https://www.facebook.com/Craft-Guitars-120854059527911" target="_blank"> <img
+                    src="img/twitter.png" alt="twitter"> </a>
+        </li>
+    </ul>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script>src = "data/data.js"</script>
+    <script src="data/main.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    </body>
+    
+    </html>
